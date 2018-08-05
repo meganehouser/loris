@@ -1,0 +1,8 @@
+[package]
+name = "loris"
+version = "0.1.0"
+authors = ["meganehouser <sleepy.st818@gmail.com>"]
+
+[dependencies]
+lazy_static = "1.0"
+users = "0.7"
