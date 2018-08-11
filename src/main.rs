@@ -1,10 +1,15 @@
 #[macro_use]
 extern crate lazy_static;
 extern crate users;
+extern crate failure;
+#[macro_use]
+extern crate failure_derive;
 
+mod ast;
 mod token;
 mod lexer;
 mod repl;
+mod parser;
 
 
 use users::get_current_username;

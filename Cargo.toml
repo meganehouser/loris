@@ -6,3 +6,5 @@ authors = ["meganehouser <sleepy.st818@gmail.com>"]
 [dependencies]
 lazy_static = "1.0"
 users = "0.7"
+failure = "0.1"
+failure_derive = "0.1"
